@@ -1,0 +1,50 @@
+* {
+margin : 0;
+padding : 0;
+box-sizing : border-box;
+outline : none;
+border : none;
+text-decoration: none;
+
+}
+
+
+ul,
+li {
+list-style: none;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: 0  auto;
+    padding: 0  15px;
+    }
+
+
+.header{
+    background-image: url(images/arkaplan.jpg);
+    background-position: center;
+    background-size: size;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 195vh;
+}
+
+
+
+.header-alan{
+padding: 20px ;
+display: flex ;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.ul{
+    display: flex ;
+}
+
+.li{
+    margin-left: 27px;
+}
