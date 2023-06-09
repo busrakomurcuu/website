@@ -31,7 +31,7 @@ padding:35px 7%;
 :root{
 --main-color:#dadcdd;
 --black-color:#121327;
---border--:0.1rem solid #0c4063;
+--border--:0.1rem solid #4a2d77;
 }
 
 .logo img{
@@ -75,35 +75,32 @@ border-bottom: 1px
     max-width: 60rem;
 }
 
-.home .content h3{
-    font-size:6rem;
-    color:#fff;
-}
-
-.home .content p{
-    font-size: 2rem;
-    font-weight:300;
-    line-height:1.8;
-    padding: 1rem 0;
-}
 
 
-.menu .box-container{
+.hakkımda .box-container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(30rem, 1 fr));
+    background-color: #0c043b;
 }
 
-.menu .box-container .box img{
+
+.hakkımda .box-container .box{
+    padding: 3rem;
+    background-color:#f5f5f5;
+    border-radius: 3rem;
+    background-color:#f5f5f5 ;
+    min-height: 60px;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+
+.hakkımda .box-container .box img{
 width:25%;
 object-fit:cover;
 }
 
-.menu .box-container .box{
-    padding: 3rem;
-    background-color:#6b6c80;
-}
 
-.box-container .p{
-    color:#fff;
-}
+
 
